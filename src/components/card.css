@@ -1,0 +1,64 @@
+body
+ {
+  background-color:whitesmoke;
+ }
+ .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+ 
+  border: 1px solid #ccc;
+  border-radius: 20px; 
+   width: 700px;
+   margin-bottom: 30px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+   background-color: #fff; 
+  
+}
+
+.card {
+  width: 400px;
+  height: 450px;
+  background-color:lightgrey;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
+/* Card Image */
+.card .cardImage {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  padding:20px;
+}
+
+/* Card Content */
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+} */
+
+.card-text {
+  margin-bottom: 5px;
+  font-size: 0.5rem;
+} 
+
+.quantity-btn{
+  display: flex;
+  margin-top: 10px;
+  padding:20px;
+}
+
+

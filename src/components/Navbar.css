@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #f109f1;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #08ec22;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar stays on top of other elements */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-info {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-info span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.parent-container {
+    padding-top: 4rem; /* Adjust this value based on the height of the navbar */
+}
